@@ -1,0 +1,190 @@
+/* CSS for the About Us Section */
+
+.about-us {
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 45vh;
+    /* Half-screen height */
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensures the image looks good within the container */
+    filter: brightness(60%);
+    /* Dim the image to enhance text visibility */
+}
+
+.image-container .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background for better contrast */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.image-container .overlay h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #fff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    /* Add a shadow for better visibility */
+}
+
+.image-container .overlay .button-container {
+    margin-top: 10px;
+}
+
+.image-container .overlay .btn {
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+}
+
+.image-container .overlay .btn:hover {
+    color: #000;
+}
+
+
+/* Overlay Text for "Our Events" */
+
+.image-container .overlay h1.overlay-title {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #fff;
+}
+
+.image-container .overlay h2.overlay-subtitle {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #ccc;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+/************* Contact  us form*********/
+
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    gap: 20px;
+}
+
+
+/* Left Image Side */
+
+.image-side {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Right Form Side */
+
+.form-side {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-side h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-side p {
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.btn-submit {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .contact-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .image-side,
+    .form-side {
+        max-width: 100%;
+    }
+}
+
+.mandatoryss {
+    color: red;
+}

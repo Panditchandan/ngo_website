@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Blog page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!--------AOS Animatio  css link laced here -------->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!----------- we school icon cdn link-------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/blog.css">
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+
+        <div class="top-navbar">
+            <div class="contact-info">
+                <span>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:info@nirmalafoundation.org" style="margin-left: 5px;">Onbrightsiksha@gmail.com
+                    </a>
+                </span>
+                <span style="margin-left: 15px;">
+                    <i class="fa fa-phone"></i>
+                    <a href="tel:+1234567890" style="margin-left: 5px;"> + 91 - 8860470064</a>
+                </span>
+            </div>
+            <div class="ngo-text">
+                <p>“Making the world a better place, one step at a time.” Join us in our mission to uplift communities.</p>
+            </div>
+        </div>
+
+        <!-------------- Buttonm navbar section----------------->
+        <div class="container bottun_barsection">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="./assest/logo/onright-11729341265.png" alt="NGO Logo" style="background-color: white; ;">
+                </div>
+                <ul class="nav-links">
+                    <li> <i class="fa fa-home" style="font-size:18px"></i>
+                        <a href="./index.html">Home </a></li>
+                    <li class="dropdown">
+                        <a href="#"> About Us <i class='fas fa-angle-down' style='font-size:15px'></i> </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Image Gallery</a></li>
+                            <hr>
+                            <li><a href="#">Testimonial</a></li>
+                            <hr>
+                            <li><a href="#">Team Member</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Pages <i class='fas fa-angle-down' style='font-size:15px'></i> </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Documents</a></li>
+                            <hr>
+                            <li><a href="#">Success Stories</a></li>
+                            <hr>
+                            <li><a href="#">FAQ</a></li>
+                            <hr>
+                            <li><a href="#">Why we Donate</a></li>
+                            <hr>
+                            <li><a href="#">Sarva Siksha Abhiyan</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="./event.html">Events </i></a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Policies <i class='fas fa-angle-down' style='font-size:15px'></i> </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <hr>
+                            <li><a href="#">National Nutrition Policy, 1993</a></li>
+                            <hr>
+                            <li><a href="#">Academic Policy</a></li>
+                            <hr>
+                            <li><a href="#">Refund Policy</a></li>
+                            <hr>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <hr>
+                            <li><a href="#">Governance Policy</a></li>
+
+                            <hr>
+                            <li><a href="#">RIGHT TO INFORMATION ACT,2005</a></li>
+
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="./blog.html">Blog </a>
+                    </li>
+                    <li><a href="./contactus.html">Contact </a></li>
+
+                </ul>
+
+                <a href="./donationForm.html" class="donate-buttons" style=" font-weight: bold; font-size: 18px; padding: 15px;">Donate Now</a>
+                <button class="toggle-btn" onclick="toggleMenu()"> <i class="fa fa-bars"></i> </button>
+
+            </nav>
+
+        </div>
+
+    </header>
+    <!-----------Main body start here ------------>
+    <main>
+        <section class="about-us">
+            <div class="image-container">
+                <img src="./assest/About_Us _Images/contact_images_background.jpg" alt="About Us Image" class="blurred-image">
+                <div class="overlay" style=" margin-top: 40px;">
+                    <h1>Our blog</h1>
+                    <div class="button-container">
+                        <a href="./index.html" class="btn" style="color: rgb(223, 199, 199);">Home /</a>
+                        <a href="#" class="btn" style="color: rgb(223, 199, 199); margin-left: -25px;">About Us </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!----- blog section here------>
+
+        <div class="blog-header">
+            <h1>Latest News & <br> <span style="background-color: aqua;"> Updates</span></h1>
+        </div>
+        <section class="blog-section">
+            <div class="blog-container" data-aos="flip-left">
+
+                <!-- Blog Card 1 -->
+                <div class=" blog-card ">
+                    <img src="./assest/Blog & News/impact_ images.jpg " alt="Blog 1 ">
+                    <div class="content ">
+                        <h3 class="blog-title ">Impact Stories </h3>
+                        <p class="blog-description ">Real-life accounts of how your NGO’s work is transforming lives and communities. These stories emphasize the tangible results of your initiatives, helping readers connect emotionally with your mission.</p>
+                        <a href="# " class="read-more ">Read More</a>
+                    </div>
+                </div>
+                <!-- Blog Card 2 -->
+                <div class="blog-card ">
+                    <img src="./assest/Blog & News/Humanity Journal.jpg " alt="Blog 2 ">
+                    <div class="content ">
+                        <h3 class="blog-title "> The Humanity Journal</h3>
+                        <p class="blog-description "> Exploring the essence of humanity through stories, insights, and thought leadership on compassion, equality, and justice. A space to reflect on what it means to be human and to act for the greater good.</p>
+                        <a href="# " class="read-more ">Read More</a>
+                    </div>
+                </div>
+                <!-- Blog Card 3 -->
+                <div class="blog-card ">
+                    <img src="./assest/Blog & News/Acts of Kindness.jpg " alt="Blog 3 ">
+                    <div class="content ">
+                        <h3 class="blog-title "> Acts of Kindness</h3>
+                        <p class="blog-description ">A collection of heartwarming stories and initiatives centered around kindness and generosity. From small gestures to large-scale movements, this blog is all about spreading positivity. .
+
+                        </p>
+                        <a href="# " class="read-more ">Read More</a>
+                    </div>
+                </div>
+                <!-- Blog Card 4 -->
+                <div class="blog-card ">
+                    <img src="./assest/Blog & News/Empowerment Insight.jpg " alt="Blog 4 ">
+                    <div class="content ">
+                        <h3 class="blog-title "> Empowerment Insights</h3>
+                        <p class="blog-description ">A blog offering deep insights into empowerment—be it through education, health, or economic development. Stories and strategies aimed at uplifting individuals and communities for a brighter future.</p>
+                        <a href="# " class="read-more ">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-card ">
+                    <img src="./assest/Blog & News/Compassion Corner.jpg " alt="Blog 4 ">
+                    <div class="content ">
+                        <h3 class="blog-title ">Compassion Corner</h3>
+                        <p class="blog-description ">A heartfelt space dedicated to sharing stories of compassion, selflessness, and humanity. Readers can find inspiration and opportunities to join hands for a better tomorrow.</p>
+                        <a href="# " class="read-more ">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-card ">
+                    <img src="./assest/Blog & News/Journey to Justice.jpg " alt="Blog 4 ">
+                    <div class="content ">
+                        <h3 class="blog-title ">Journey to Justice</h3>
+                        <p class="blog-description ">A blog exploring the path toward equality and justice for all. From advocacy to action, these stories capture the ongoing struggle for human rights and dignity worldwide.
+
+                        </p>
+                        <a href="# " class="read-more ">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-card ">
+                    <img src="./assest/Blog & News/Heartbeats of Humanity.jpg " alt="Blog 4 ">
+                    <div class="content ">
+                        <h3 class="blog-title "> Heartbeats of Humanity</h3>
+                        <p class="blog-description "> A blog that celebrates the shared emotions and values that unite us as humans. From joy to empathy, these stories resonate deeply with readers.</p>
+                        <a href="# " class="read-more ">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-card ">
+                    <img src="./assest/Blog & News/The Goodness Gazette.jpg " alt="Blog 4 ">
+                    <div class="content ">
+                        <h3 class="blog-title "> The Goodness Gazette</h3>
+                        <p class="blog-description "> A cheerful and inspiring blog that brings together stories of goodness from around the globe. A reminder that positive change is possible when we all do our part.
+
+                        </p>
+                        <a href="# " class="read-more ">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <!-- place footer here -->
+    <footer class="modern-footer" style="margin-top: 4rem;">
+        <div class="container">
+            <div class=" footer-row " data-aos="fade-up">
+                <!-- About Us Section -->
+                <div class="footer-col ">
+                    <h3>About Us</h3>
+                    <p>
+                        Onbright Siksha Foundation works to ensure that every child in India has the rights to survival, protection, education, and development, emphasizing the importance of not just surviving but thriving to reach their full potential.
+                    </p>
+                    <a href="# " class="learn-more-btn ">Learn More</a>
+                </div>
+
+
+                <!-- Contact Info Section -->
+                <div class="footer-col ">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info ">
+                        <li><i class="fa fa-map-marker "></i> East Delhi, Delhi India </li>
+                        <li><i class="fa fa-phone "></i> + 91 - 8860470064</li>
+                        <li><i class="fa fa-envelope "></i> Onbrightsiksha@gmail.com</li>
+                    </ul>
+                    <div class="social-icons ">
+                        <a href="# "><i class="fa fa-facebook "></i></a>
+                        <a href="# "><i class="fa fa-twitter "></i></a>
+                        <a href="# "><i class="fa fa-instagram "></i></a>
+                        <a href="# "><i class="fa fa-linkedin "></i></a>
+                        <a href="# "><i class="fa fa-youtube "></i></a>
+                    </div>
+                </div>
+                <!-- email  Posts Section -->
+                <div class="footer-bottom">
+                    <form id="subscribeForm" style="display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 10px; text-align: center;">
+                        <p id="subscribechallel">Subscribe to our newsletter for updates</p>
+                        <input type="email" id="subscribeEmail" placeholder="Enter your email" style="padding: 10px; width: 300px; border: 1px solid #ccc; border-radius: 5px;">
+                        <div id="subscribeError" style="color: red; font-size: 14px;"></div>
+                        <button type="submit" style="padding: 10px 20px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer;">Subscribe</button>
+                    </form>
+                </div>
+
+
+
+            </div>
+
+            <div class="footer-bottom ">
+                <p>&copy; 2024 ONBRIGHT SIKSHA FOUNDATION. All Rights Reserved.</p>
+                <span id="powered_mentioned ">Powered By: NetXperia</span>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+
+    <!----------Aos sctipt cdn --------------->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+    <script>
+        AOS.init({
+                duration: 2500,
+                easing: 'ease-in-out-sine',
+                once: true
+            }
+
+        );
+    </script>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js "></script>
+    <!-------script  link file---------->
+    <script src="./js/script.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js "></script>
+</body>
+
+</html>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js "></script>
+<------script  link file---------->
+<!-- <script src="./js/script.js "></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js "></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js "></script>
+</body> -->
+
+</html>

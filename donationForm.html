@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>DonatioForm</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <!--------AOS Animatio  css link laced here -------->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!----------- we school icon cdn link-------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/donatiomnForm.css">
+    <link rel="stylesheet" href="./css/contactus.css">
+</head>
+
+<body>
+    <header>
+        <!-- place  Top navbar here -->
+
+        <div class="top-navbar">
+            <div class="contact-info">
+                <span>
+                            <i class="fa fa-envelope"></i>
+                            <a href="mailto:info@nirmalafoundation.org" style="margin-left: 5px;">Onbrightsiksha@gmail.com</a>
+                        </span>
+                <span style="margin-left: 15px;">
+                            <i class="fa fa-phone"></i>
+                            <a href="tel:+1234567890" style="margin-left: 5px;"> +91 - 8860470064 </a>
+                        </span>
+            </div>
+            <div class="ngo-text">
+                <p>“Making the world a better place, one step at a time.” Join us in our mission to uplift communities.</p>
+            </div>
+        </div>
+
+        <!-------------- Buttonm navbar section----------------->
+        <div class="container bottun_barsection">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="./assest/logo/onright-11729341265.png" alt="NGO Logo" style="background-color: white; ;">
+                </div>
+                <ul class="nav-links">
+                    <li> <i class="fa fa-home" style="font-size:18px"></i>
+                        <a href="./index.html">Home </a></li>
+                    <li class="dropdown">
+                        <a href="#"> About Us <i class='fas fa-angle-down' style='font-size:15px'></i> </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Image Gallery</a></li>
+                            <hr>
+                            <li><a href="#">Testimonial</a></li>
+                            <hr>
+                            <li><a href="#">Team Member</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Pages <i class='fas fa-angle-down' style='font-size:15px'></i> </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Documents</a></li>
+                            <hr>
+                            <li><a href="#">Success Stories</a></li>
+                            <hr>
+                            <li><a href="#">FAQ</a></li>
+                            <hr>
+                            <li><a href="#">Why we Donate</a></li>
+                            <hr>
+                            <li><a href="#">Sarva Siksha Abhiyan</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="./event.html">Events </i></a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Policies <i class='fas fa-angle-down' style='font-size:15px'></i> </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <hr>
+                            <li><a href="#">National Nutrition Policy, 1993</a></li>
+                            <hr>
+                            <li><a href="#">Academic Policy</a></li>
+                            <hr>
+                            <li><a href="#">Refund Policy</a></li>
+                            <hr>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <hr>
+                            <li><a href="#">Governance Policy</a></li>
+
+                            <hr>
+                            <li><a href="#">RIGHT TO INFORMATION ACT,2005</a></li>
+
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="./blog.html">Blog </a>
+                    </li>
+                    <li><a href="./contactus.html">Contact </a></li>
+
+                </ul>
+
+                <a href="./DonationForm.html" class="donate-buttons" style=" font-weight: bold; font-size: 18px; padding: 15px;">Donate Now</a>
+                <button class="toggle-btn" onclick="toggleMenu()" style="width: 45px;"> <i class="fa fa-bars"></i> </button>
+
+            </nav>
+
+        </div>
+    </header>
+
+    <!------ Main Body Start Hereb----->
+    <main>
+        <!------- bradcrumb----->
+        <section class="about-us">
+            <div class="image-container">
+                <img src="./assest/About_Us _Images/contact_images_background.jpg" alt="About Us Image" class="blurred-image">
+                <div class="overlay" style="margin-top: 40px;">
+                    <h1> Donate Us</h1>
+                    <div class="button-container">
+                        <a href="./index.html" class="btn" style="color: rgb(223, 199, 199);">Home /</a>
+                        <a href="#" class="btn" style="color: rgb(223, 199, 199); margin-left: -25px;">About Us </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------- Donate form------------>
+        <div class="container">
+            <div class="containers" style="margin-top: 3rem;">
+
+                <h1>Donation Form</h1>
+                <span id="donateus">! Donate to Help Us Make a Change !</span>
+                <form id="donationForm" action="#" method="POST" style="max-width: 800px; margin: auto;">
+                    <label for="name">Full Name <span class="mandatorys">*</span></label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" class="form-control">
+                    <div class="error" id="nameError"></div>
+
+                    <div style="display: flex; gap: 10px; margin-top: 10px;">
+                        <div style="flex: 1;">
+                            <label for="email">Email <span class="mandatorys">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" class="form-control">
+                            <div class="error" id="emailError"></div>
+                        </div>
+                        <div style="flex: 1;">
+                            <label for="phone">Phone Number <span class="mandatorys">*</span></label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" class="form-control">
+                            <div class="error" id="phoneError"></div>
+                        </div>
+                    </div>
+
+                    <label for="address" style="margin-top: 15px;">Address</label>
+                    <textarea id="address" name="address" placeholder="Enter your address" rows="3" class="form-control"></textarea>
+                    <div class="error" id="addressError"></div>
+
+                    <!-- <label for="amount-options" style="margin-top: 15px;">Donation Amount</label>
+                    <div id="amount-options" style="display: flex; justify-content: space-around; margin-top: 10px;">
+                        <label><input type="radio" name="amount" value="500"> ₹500</label>
+                        <label><input type="radio" name="amount" value="1000"> ₹1000</label>
+                        <label><input type="radio" name="amount" value="5000"> ₹5000</label>
+                        <label><input type="radio" name="amount" value="other" id="other-option"> Other</label>
+                    </div> -->
+                    <div id="custom-amount-container" style="display: none; margin-top: 10px;">
+                        <label for="custom-amount">Enter Your Amount</label>
+                        <input type="number" id="custom-amount" name="custom-amount" placeholder="Enter donation amount" class="form-control">
+                    </div>
+                    <div class="error" id="amountError"></div>
+                    <div style="display: flex; gap: 10px; margin-top: 15px;">
+                        <div style="flex: 1;">
+                            <label for="purpose">Purpose of Donation <span class="mandatorys">*</span></label>
+                            <select id="purpose" name="purpose" class="form-control">
+                                <option value="">Select Purpose</option>
+                                <option value="education">Education</option>
+                                <option value="healthcare">Healthcare</option>
+                                <option value="environment">Environment</option>
+                                <option value="others">Others</option>
+                            </select>
+                            <div class="error" id="purposeError"></div>
+                        </div>
+
+                        <!--- payments option here -->
+                        <div style="flex: 1;">
+                            <label for="payment">Payment Mode <span class="mandatorys">*</span></label>
+                            <select id="payment" name="payment" class="form-control">
+                                <option value="">Select Payment Mode</option>
+                                <option value="netbanking">Netbanking</option>
+                                <option value="upi">UPI</option>
+                                <option value="cash">Cash</option>
+                                <option value="creditcard">Credit Card</option>
+                            </select>
+                            <div id="paymentDetails"></div>
+                            <!-- Placeholder for dynamic content -->
+                            <div class="error" id="paymentError"></div>
+                        </div>
+                    </div>
+
+                    <div class="error" id="paymentError"></div>
+                    <label for="message" style="margin-top: 15px;">Additional Message (Optional)</label>
+                    <textarea id="message" name="message" placeholder="Write your message" rows="4" class="form-control"></textarea>
+                    <div>
+                        <button type="button" id="submitBtn" class="submit-btn" style="margin-top: 20px;">Submit Now </button>
+
+
+                    </div>
+                </form>
+
+
+
+
+            </div>
+
+    </main>
+
+    <!-------- Footer Sectio Placed Hree -->
+
+    <footer class="modern-footer" style="margin-top: 4rem;">
+        <div class="container">
+            <div class=" footer-row " data-aos="fade-up">
+                <!-- About Us Section -->
+                <div class="footer-col ">
+                    <h3>About Us</h3>
+                    <p>
+                        Onbright Siksha Foundation works to ensure that every child in India has the rights to survival, protection, education, and development, emphasizing the importance of not just surviving but thriving to reach their full potential.
+                    </p>
+                    <a href="# " class="learn-more-btn ">Learn More</a>
+                </div>
+
+
+                <!-- Contact Info Section -->
+                <div class="footer-col ">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info ">
+                        <li><i class="fa fa-map-marker "></i> East Delhi, Delhi India </li>
+                        <li><i class="fa fa-phone "></i> + 91 - 8860470064</li>
+                        <li><i class="fa fa-envelope "></i> Onbrightsiksha@gmail.com</li>
+                    </ul>
+                    <div class="social-icons ">
+                        <a href="# "><i class="fa fa-facebook "></i></a>
+                        <a href="# "><i class="fa fa-twitter "></i></a>
+                        <a href="# "><i class="fa fa-instagram "></i></a>
+                        <a href="# "><i class="fa fa-linkedin "></i></a>
+                        <a href="# "><i class="fa fa-youtube "></i></a>
+                    </div>
+                </div>
+                <!-- email  Posts Section -->
+                <div class="footer-bottom">
+                    <form id="subscribeForm" style="display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 10px; text-align: center;">
+                        <p id="subscribechallel">Subscribe to our newsletter for updates</p>
+                        <input type="email" id="subscribeEmail" placeholder="Enter your email" style="padding: 10px; width: 300px; border: 1px solid #ccc; border-radius: 5px;">
+                        <div id="subscribeError" style="color: red; font-size: 14px;"></div>
+                        <button type="submit" style="padding: 10px 20px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer;">Subscribe</button>
+                    </form>
+                </div>
+
+
+
+            </div>
+
+            <div class="footer-bottom ">
+                <p>&copy; 2024 ONBRIGHT SIKSHA FOUNDATION. All Rights Reserved.</p>
+                <span id="powered_mentioned ">Powered By: NetXperia</span>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js "></script>
+    <!----------Aos sctipt cdn --------------->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+                duration: 1500,
+                easing: 'ease-in-out-sine',
+                once: true
+            }
+
+        );
+    </script>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <!-------script  link file---------->
+    <script src="./js/donateForm.js"></script>
+
+    <!-- Include SweetAlert 2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+</body>
+
+</html>

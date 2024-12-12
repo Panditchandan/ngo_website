@@ -1,0 +1,157 @@
+/* CSS for the About Us Section */
+
+.about-us {
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+    position: relative;
+    width: 100%;
+    height: 45vh;
+    /* Half-screen height */
+    overflow: hidden;
+}
+
+.container-fluid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensures the image looks good within the container */
+}
+
+.image-fluid {
+    filter: brightness(60%);
+    /* Dim the image to enhance text visibility */
+}
+
+.container-fluid .overlay {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background for better contrast */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container-fluid .overlay h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: black;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    /* Add a shadow for better visibility */
+}
+
+.container-fluid .overlay .button-container {
+    margin-top: 10px;
+}
+
+.container-fluid .overlay .btn {
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+}
+
+.container-fluid .overlay .btn:hover {
+    color: #000;
+}
+
+
+/* Overlay Text for "Our Events" */
+
+.container-fluid .overlay h1.overlay-title {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #fff;
+}
+
+.container-fluid .overlay h2.overlay-subtitle {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #ccc;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+/* Events Section */
+
+.events-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.events-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.events-section .event-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.events-section .event-card {
+    flex: 0 1 300px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.events-section .event-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.events-section .event-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.events-section .event-card .content {
+    padding: 20px;
+}
+
+.events-section .event-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.events-section .event-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.events-section .event-card a {
+    display: inline-block;
+    font-size: 1rem;
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.events-section .event-card a:hover {
+    color: #0056b3;
+}
+
+#oureventssectiuonss {
+    color: rgb(114, 167, 114);
+    font-size: 60px;
+}
