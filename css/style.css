@@ -135,49 +135,49 @@
                             /* Underline animation */
                             transform-origin: bottom left;
                         }
-                        /* Mobile and Tablet Responsive Styling */
+     /* Mobile and Tablet Responsive Styling */
                         
-                        @media (max-width: 768px) {
-                            /* Show the toggle button on smaller screens */
-                            .toggle-btn {
-                                display: block;
-                            }
-                            .nav-links {
-                                display: none;
-                                width: 100%;
-                                flex-direction: column;
-                                background-color: #69736f;
-                                position: absolute;
-                                top: 100%;
-                                left: 0;
-                                z-index: 1;
-                            }
-                            .nav-links.active {
-                                display: flex;
-                            }
-                            .nav-links li {
-                                width: 100%;
-                                text-align: center;
-                                padding: 10px 0;
-                            }
-                            .nav-links li a {
-                                font-size: 20px;
-                            }
-                            .toggle-btn {
-                                font-size: 36px;
-                            }
-                        }
-                        
-                        .logo img {
-                            max-height: 50px;
-                        }
-                        
-                        .bottun_barsection {
-                            position: absolute;
-                            z-index: 1;
-                            left: 0;
-                            right: 0;
-                        }
+           @media (max-width: 768px) {
+            .toggle-btn {
+            display: block;
+              }
+          .nav-links {
+            display: none;
+            width: 70%;
+            flex-direction: column;
+            background-color: #101110;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 1;
+        }
+        .nav-links.active {
+            display: flex;
+        }
+        .nav-links li {
+            width: 100%;
+            text-align: center;
+        }
+        .nav-links li a {
+            font-size: 15px;
+            height: 30px;
+        }
+        .toggle-btn {
+            font-size: 36px;
+            color: pink;
+        }
+    }
+    
+    .logo img {
+        max-height: 50px;
+    }
+    
+    .bottun_barsection {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+    }
                         /****************************dropdowm  menu *********************/
                         
                         .donate-buttons {
