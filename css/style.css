@@ -444,6 +444,12 @@
                         .client-image:hover img {
                             transform: scale(1.05);
                         }
+ 
+                #usaboutme {
+                color: green;
+                font-size: 70px;
+                font-family: 'Times New Roman', Times, serif;
+                      }
                         /* FadeIn animation for elements */
                         
                         @keyframes fadeIn {
