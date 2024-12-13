@@ -490,6 +490,11 @@
                                 font-size: 1rem;
                                 padding: 10px 20px;
                             }
+                            #usaboutme {
+                              color: green;
+                              font-size: 50px;
+                              font-family: 'Times New Roman', Times, serif;
+        }
                         }
                         
                         #following {
