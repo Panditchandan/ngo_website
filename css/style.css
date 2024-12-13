@@ -172,12 +172,12 @@
         max-height: 50px;
     }
     
-    .bottun_barsection {
+   .bottun_barsection {
         position: absolute;
         z-index: 1;
         left: 0;
         right: 0;
-        padding:0;
+        padding: 0;
     }
                         /****************************dropdowm  menu *********************/
                         
