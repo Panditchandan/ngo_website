@@ -3,6 +3,37 @@ function toggleMenu() {
     navLinks.classList.toggle('active');
 }
 
+/***********Dropdown list Toggler button  Vlaidate here ******* */
+document.addEventListener("DOMContentLoaded", () => {
+    const dropdownToggles = document.querySelectorAll(".dropdown-toggle");
+
+    dropdownToggles.forEach((toggle) => {
+        toggle.addEventListener("click", (event) => {
+            event.preventDefault(); // Prevent default link behavior
+
+            const dropdownMenu = toggle.nextElementSibling; // Find the associated dropdown menu
+            const isVisible = dropdownMenu.style.display === "block";
+
+            // Close any open dropdowns
+            document.querySelectorAll(".dropdown-menu").forEach((menu) => {
+                menu.style.display = "none";
+            });
+
+            // Toggle the clicked dropdown menu
+            dropdownMenu.style.display = isVisible ? "none" : "block";
+        });
+    });
+
+    // Optional: Close dropdowns if clicking outside of them
+    document.addEventListener("click", (event) => {
+        if (!event.target.closest(".dropdown")) {
+            document.querySelectorAll(".dropdown-menu").forEach((menu) => {
+                menu.style.display = "none";
+            });
+        }
+    });
+});
+
 
 
 /******************** tsestimonial auto sliding***************/
