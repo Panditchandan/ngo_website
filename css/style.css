@@ -43,7 +43,7 @@
                                 display: none;
                             }
                         }
-                        /**************  Button navbar section*********/
+                        /**************  Button navbar section*********/  
                         
                         .navbar {
                             background-color: blueviolet;
@@ -169,7 +169,7 @@
     }
     
     .logo img {
-        max-height: 40px;
+        max-height: 50px;
     }
     
    .bottun_barsection {
